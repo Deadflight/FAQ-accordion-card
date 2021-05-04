@@ -29,7 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
+-Mobile Desing:
+
 ![Mobile Desing](./images/mobile.PNG)
+
+-Desktop Desing:
 
 ![Desktop Desing](./images/desktop.PNG)
 
