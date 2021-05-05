@@ -1,5 +1,6 @@
 const d = document;
 
+
 d.addEventListener("click", (e) => {
   if(e.target.matches('.arrow-btn')){
     if(!e.target.matches('.active-arrow')){
