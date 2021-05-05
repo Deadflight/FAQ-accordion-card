@@ -98,14 +98,35 @@ body{
   margin-bottom: 2%;
 }
 
-.faq-group p{
+.active-title{
+  color: black;
+}
+
+.paragraph{
+  text-align: left;
+  font-size: 145%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.desactive-paragraph{
   visibility: hidden;
   opacity: 0;
   height: 0;
-  text-align: left;
-  font-size: 130%;
-  transition: visibility 0.5s, opacity 0.7s ease-in-out;
 }
+
+.btn{
+  background: url(./images/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  border: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.active-arrow{
+  transform: rotate(180deg);
+}
+
+
 
 @media (min-width:800px){
   .mobile{
@@ -176,13 +197,12 @@ body{
 
   .faq-header{
     text-align: left;
-    margin: 5%;
+    margin: 8%;
   }
 
   .faq-group{
     margin: 4%;
-    font-size: 80%;
-    transition: display 1s ease-in-out;
+    font-size: 70%;
   }
 
   .faq-title img{
