@@ -115,7 +115,7 @@ body{
   height: 0;
 }
 
-.btn{
+.arrow-btn{
   background: url(./images/icon-arrow-down.svg);
   background-repeat: no-repeat;
   border: 0;

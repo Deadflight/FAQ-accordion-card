@@ -1,7 +1,7 @@
 const d = document;
 
 d.addEventListener("click", (e) => {
-  if(e.target.matches('.arrow')){
+  if(e.target.matches('.arrow-btn')){
     if(!e.target.matches('.active-arrow')){
       e.target.classList.add('active-arrow');
       e.target.parentElement.querySelector("h2").classList.add('active-title');
