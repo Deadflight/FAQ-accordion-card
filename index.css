@@ -27,7 +27,7 @@ body{
   background: linear-gradient(var(--Soft-violet),var(--Soft-blue));
   background-attachment: fixed;
   font-size: 12px;
-  font-family: 'Kumbh Sans';
+  font-family: sans-serif;
 }
 
 .container{
